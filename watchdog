@@ -1,0 +1,16 @@
+#!/bin/bash
+
+TIME=2
+APP=account_service
+
+while true  
+do   
+   procnum=`ps -aux |grep $APP |grep -v grep | grep -v watchdog | wc -l`  
+   if [ $procnum -eq 0 ]; then  
+	echo "reboot $APP"
+	date > /var/log/watchdog.log
+	nohup $APP >> /dev/null &                                                                                                                                                                                   
+   fi
+	echo "$APP is runing"
+	sleep $TIME
+done

@@ -1,0 +1,65 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 第一次提交，代码正常，没优化
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+<<<<<<< HEAD
+=======
+=======
+cscope*
+tags
+account_service
+obj/
+>>>>>>> 这个是第一次提交到仓库，代码能记账，目前还需要优化，搭配的apk为1.0
+>>>>>>> 第一次提交，代码正常，没优化
