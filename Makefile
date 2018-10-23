@@ -8,6 +8,7 @@ SUB_DIR = $(shell ls -l | grep ^d | awk '{if(\
                 $$9 != "obj" && \
                 $$9 != "bin" && \
                 $$9 != "include" &&\
+                $$9 != "apk" &&\
                 $$9 != "data"  \
                 ) print $$9}')
 
